@@ -26,8 +26,8 @@ def get_access_token(ak, sk):
     return resp.json().get("access_token")
 
 def get_stream_response(prompt):
-    ak = "Wj9AlKe250p6F0zcYegIprMb"
-    sk = "fi2mfzwBl7ktNXDWG3J0Olpj5ox128a6"
+    ak = "Wj9AlKe250p6F0zcYegIprXX"
+    sk = "fi2mfzwBl7ktNXDWG3J0Olpj5ox128XX"
     source = "&sourceVer=0.0.1&source=app_center&appName=streamDemo"
     # 大模型接口URL
     base_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro"
